@@ -84,7 +84,7 @@ nav a {
 	height:50px;
 	padding: 18px ;
 	display:block;
-	width:230px;
+	width:calc(100% / 3);
 	float:left;
 	font-size:14px;
 }
@@ -293,6 +293,9 @@ h1.titulo-web {
 @media screen and (max-width:640px) {
 	.un-trabajo {
 		width: 50%;
-		margin-right: 0;jhañfjnañsfhñajksnfñkj
+		margin-right: 0;
+	}
+	.contenedor {
+		width: 100%;
 	}
 }
