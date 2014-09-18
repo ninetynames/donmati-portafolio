@@ -290,12 +290,30 @@ h1.titulo-web {
 		}
 	}
 }
-@media screen and (max-width:640px) {
+@media screen and (min-width:640px) {
 	.un-trabajo {
 		width: 50%;
 		margin-right: 0;
 	}
 	.contenedor {
+		width: 80%;
+	}
+	header {
 		width: 100%;
+		.descripcion {
+			position: inherit;
+			margin: 0;
+		}
+	}
+	nav {
+		width: 100%;
+	}
+	footer {
+		width: 80%;
+	}
+	#wrapper {
+		margin: 1%;
+		width:63%;
+		//border: none;
 	}
 }
