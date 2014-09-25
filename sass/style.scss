@@ -290,7 +290,7 @@ h1.titulo-web {
 		}
 	}
 }
-@media screen and (min-width:640px) {
+@media screen and (max-width:720px) {
 	.un-trabajo {
 		width: 50%;
 		margin-right: 0;
@@ -300,10 +300,10 @@ h1.titulo-web {
 	}
 	header {
 		width: 100%;
-		.descripcion {
-			position: inherit;
-			margin: 0;
-		}
+	}
+	.logo {
+		margin: 0;
+		margin-top: 20px;
 	}
 	nav {
 		width: 100%;
@@ -313,7 +313,7 @@ h1.titulo-web {
 	}
 	#wrapper {
 		margin: 1%;
-		width:63%;
+		width:100%;
 		//border: none;
 	}
 }
