@@ -327,6 +327,18 @@ h1.titulo-web {
 		float:left;
 		font-size:14px;
 	}
+
+	footer {
+		width: 100%;
+	}
+	.datos {
+		&.yo {
+			width: 100%;
+		}
+	#panel-yo, #panel-contacto{
+		width: 100%;
+	}
+	}
 	.un-trabajo {
 		display: block;
 		margin-bottom: 5%;
