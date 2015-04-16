@@ -333,7 +333,7 @@ h1.titulo-web {
 	}
 	.datos {
 		&.yo {
-			width: 90%;
+			width: 100%;
 		}
 	}
 	#panel-yo, #panel-contacto{
@@ -344,15 +344,5 @@ h1.titulo-web {
 		margin-bottom: 5%;
 		width: 100%;
 		height: 100%;
-	}
-	.dentro-un-trabajo{
-		width: 100%;
-		margin-left: 0;
-		 img {
-			max-width: 100%;
-			display: block;
-			height: auto;
-			margin: 0 auto;
-		}
 	}
 	}
