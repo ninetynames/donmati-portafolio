@@ -348,11 +348,40 @@ h1.titulo-web {
 	.dentro-un-trabajo{
 		width: 100%;
 		margin-left: 0;
+		float: left;
 		 img {
 			max-width: 100%;
 			display: block;
 			height: auto;
 			margin: 0 auto;
 		}
+	}
+	.descripcion-trabajo {
+		width: 100%;
+		h1.titulo {
+			font-size: 32px;
+			text-align: center;
+			float: none;
+		}
+		h2.cliente {
+			text-align: center;
+			border-left: 0;
+			border-bottom: 1px solid $orange;
+			float: none;
+			padding-bottom: 10px;
+			width: 100%;
+		}
+	}
+	}
+	@media screen and (max-width:800px) {
+		.contenedor{
+		width: 100%;
+	}
+		#principal {
+			margin: 0 auto;
+		}
+		#wrapper{
+			border: none;
+			margin: 0 auto;
 	}
 	}
